@@ -28,4 +28,16 @@ console.log(valor)// declarado mas nao definido
 
 valor = null // estou avisando que ela está inicializada mas nao aponta pra nenhum lugar na memória
 console.log(valor)
+//console.log(valor.toStrig())// erro pq nao tem como imprimir sendo q ele nao está definido
 
+const produto = {}
+console.log(produto.preco)
+console.log(produto)
+
+produto.preco = 3.50
+console.log(produto.preco)
+
+//ideal
+produto.preco = null // sem preço, preço nao definido q eh diferente 
+//de definido como 0, mas nunca undefined
+console.log(produto)
