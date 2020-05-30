@@ -12,4 +12,5 @@ falar()// agora o this não é mais o mesmo entao volta indefinido
 
 //bind passamos objeto onde queremos que o this seja resolvido 
 const falarDePessoa = pessoa.falar.bind(pessoa)
-falarDePessoa()
+falarDePessoa() // o objeto pessoa nao é alterado, só amarra mesmo
+

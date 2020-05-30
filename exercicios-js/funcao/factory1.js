@@ -21,11 +21,11 @@ function criarPessoa(){
 
 console.log(criarPessoa())
 
-function criarProduto (Nome, preco, desconto = 0.5){
+function criarProduto (nome, preco){
     return{
-        nome: Nome,
-        preco: preco,
-        desconto: desconto 
+        nome,
+        preco,
+        desconto: 0.20
     }
 }
 

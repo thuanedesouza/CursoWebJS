@@ -1,6 +1,6 @@
 // estratégia 1  de gerar valor padrao
 
-function soma1(a, b, c){// mais usado
+function soma1(a, b, c){// mais usado, MELHOR PARA DENTRO DE FUNÇÃO MAS PERDE PRO ES2015
     a = a || 1
     b = b || 1
     c = c || 1

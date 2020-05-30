@@ -12,4 +12,4 @@ imprimirResultado(3, 4, function (x, y){// função anônima como parâmetro par
     return x - y
 })
 
-imprimirResultado(3, 4, (x, y) => x * y)
+imprimirResultado(3, 4, (x, y) => x * y)// arrow function como parâmetro para outra função

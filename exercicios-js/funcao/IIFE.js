@@ -1,4 +1,4 @@
-//iife - . função auto invocada, immediately function expression
+//iife - . função auto invocada, immediately  invoked function expression
 
 (function(){
     console.log('Sera executado na hora!')
