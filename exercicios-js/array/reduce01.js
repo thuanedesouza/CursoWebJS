@@ -18,9 +18,5 @@ const resultado2 = alunos.map(a => a.nota).reduce(function (acumulador, valorAtu
     return acumulador + valorAtual
 }, 0)//0 sendo esse valor inicial
 
-const resultado3 = alunos.map(a => a.nota).reduce(function (acumulador, valorAtual){
-    console.log(acumulador, valorAtual)
-    return acumulador + valorAtual
-}, [])//[] sendo esse valor inicial
 
-console.log(resultado3)
+console.log(resultado2)

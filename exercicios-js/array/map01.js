@@ -19,4 +19,5 @@ const paraDinheiro = e => `R$ ${parseFloat(e).toFixed(2).replace('-', ',')}`
 
 
 resultado = nums.map(soma10).map(triplo).map(paraDinheiro)
+//um novo array com transformação encadeadas:  em dinheiro(( nums *10 ) * 3)
 console.log(resultado)

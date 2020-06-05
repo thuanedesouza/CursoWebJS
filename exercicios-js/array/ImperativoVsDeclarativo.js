@@ -5,7 +5,7 @@ const alunos = [
     {nome: 'Maria', nota: 9.2}
 ]
 // média das notas
-// Abordagem Imperativa
+// Abordagem Imperativa: muito detalhe interno, foco em como é feito  e baixo reuso
 let total1 = 0
 for ( let i = 0; i< alunos.length; i++){
     total1 += alunos[i].nota
@@ -13,7 +13,7 @@ for ( let i = 0; i< alunos.length; i++){
 
 console.log(total1/alunos.length)
 
-// Abordagem Declarativa
+// Abordagem Declarativa: pouco detalhe interno, foco no que é feito, alto reuso 
 
 const getNota = aluno => aluno.nota// totalmente reutilizável e autoexplicável 
 const soma = (total,atual) => total + atual

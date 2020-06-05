@@ -9,7 +9,7 @@ console.log(JSON.stringify(obj)) // tornando um objeto um JSON
 
 // ou seja é muito importante usar a sintaxe correta e é muito fácil confundir
 
-console.log(JSON.parse('{"a":1, "b":2, "c": 3}'))
+console.log(JSON.parse('{"a":1, "b":2, "c": 3}'))// transformando JSON em objeto novamente
 
 // formatos válidos
 //atributos  e strings sempre delimitados por aspas simples

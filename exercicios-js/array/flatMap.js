@@ -32,7 +32,7 @@ console.log(notas1)
 
 console.log([].concat( [ 8.1, 9.3 ], [ 8.9, 7.3 ] ))
 
-//flatMap nao existe na API padrão
+//flatMap nao existe na API padrão mas é bastante utilizada
 Array.prototype.flatMap = function(callback){
 
     return Array.prototype.concat.apply([], this.map(callback))
