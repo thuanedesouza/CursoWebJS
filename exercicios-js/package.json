@@ -1,0 +1,9 @@
+{
+  "name": "exercicios-js",
+  "version": "1.0.0",
+  "main": "script.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
