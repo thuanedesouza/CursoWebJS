@@ -9,6 +9,7 @@ console.log(moduloA.ola)
 const http = require('http')// só precisa do nome
 
 const c = require('./pastaC')
+//como estamos usando arquivo padrão index não precisamos escrever todo o caminho até ele './pastaC/index.js'
 console.log(c.ola2)
 
 http.createServer((req, res) => {
