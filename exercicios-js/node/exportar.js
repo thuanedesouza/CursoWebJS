@@ -14,7 +14,7 @@ exports = {
 }
 
 console.log(module.exports)//continua sendo o mesmo objeto
-
+//this e exports são duas referências para o mesmo objeto que module.exports aponta
 // para tentar atribuir um novo objeto para ser exportado, a forma correta é: 
 
 module.exports = {
