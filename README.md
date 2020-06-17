@@ -15,5 +15,6 @@ Uma lista atualizada com os assuntos que já exercitei e deixarei sem check o as
  - [x] Função
  - [x] Objeto
  - [x] Array
- - [ ] Node
+ - [x] Node
+ - [ ] ESNext
 
